@@ -12,15 +12,18 @@ h2 {
     font-size: 2.0rem;
 }
 
-
 header {
     margin-bottom: 50px;
 }
 
 input[type='text'] {
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 main {
     margin-bottom: 50px;
+}
+
+.ad {
+    margin: 20px 0;
 }
