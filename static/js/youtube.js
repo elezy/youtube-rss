@@ -36,6 +36,12 @@ $(function() {
         var $input = $('input[name="url"]'),
             url = $input.val();
 
+        ga('send', 'event', {
+            eventCategory: 'RSS',
+            eventAction: 'generate',
+            eventLabel: url
+        });
+
         if (!url) {
             $input.focus();
             return false;
